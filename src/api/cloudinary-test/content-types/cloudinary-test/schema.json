@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cloudinary_tests",
+  "info": {
+    "singularName": "cloudinary-test",
+    "pluralName": "cloudinary-tests",
+    "displayName": "cloudinary",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+}
